@@ -1,0 +1,54 @@
+/*-----------------------------------------------
+|   Utility
+-----------------------------------------------*/
+
+.alert {
+    padding: 10px 30px 10px 40px;
+    width: 500px;
+    box-shadow: 0px 0px 5px 1px #BDBDBD;
+    border-radius: 5px;
+    background: #FFF;
+    position: relative;
+    font-weight: 700;
+}
+
+.alert-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+}
+
+.alert-description {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: .8;
+}
+
+.alert-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    opacity: .4;
+}
+
+.alert-read {
+    background-color: #FFCDD2;
+    color: #C62828;
+}
+
+.alert-green {
+    background-color: #C8E6C9;
+    color: #2E7D32;
+}
+
+.alert-orange {
+    background-color: #FFE0B2;
+    color: #EF6C00;
+}
+
+.alert-blue {
+    background-color: #BBDEFB;
+    color: #1565C0;
+}

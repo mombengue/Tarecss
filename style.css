@@ -1,0 +1,278 @@
+/* -------------------------------------------------------------------------- */
+/*                                 Theme                                      */
+/* -------------------------------------------------------------------------- */
+/* prettier-ignore */
+/* -------------------------------------------------------------------------- */
+/*                                  Utilities                                 */
+/* -------------------------------------------------------------------------- */
+/*-----------------------------------------------
+|   Bootstrap Styles
+-----------------------------------------------*/
+/*!
+ * Bootstrap v5.0.0-alpha1 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEEEE;
+}
+
+button,p,a,span,strong,small,h1,h2,h3,h4,h5,h6,input,select,textarea{
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.position-re {
+    position: relative;
+}
+
+.position-ae {
+    position: absolute;
+}
+
+.position-fd {
+    position: fixed;
+}
+
+.position-sy {
+    position: sticky;
+}
+
+.position-sc {
+    position: static;
+}
+
+.display-ie {
+    display: inline;
+}
+
+.display-gd {
+    display: grid;
+}
+
+.display-fx {
+    display: flex;
+}
+
+.display-bk {
+    display: block;
+}
+
+.display-ie-bk {
+    display: inline-block;
+}
+.display-ie-fx {
+    display: inline-flex;
+}
+
+.flex-direction-cn {
+    flex-direction: column;
+}
+
+.flex-direction-cn-re {
+    flex-direction: column-reverse;
+}
+
+.flex-direction-rw {
+    flex-direction: row;
+}
+
+.flex-direction-rw-re {
+    flex-direction: row-reverse;
+}
+
+.justify-content-se-bn {
+    justify-content: space-between;
+}
+
+.justify-content-cr {
+    justify-content: center;
+}
+
+.justify-content-se-ad {
+    justify-content: space-around;
+}
+
+.justify-content-se-ey {
+    justify-content: space-evenly;
+}
+
+.justify-content-fx-st {
+    justify-content: flex-start;
+}
+
+.justify-content-fx-ed {
+    justify-content: flex-end;
+}
+
+.align-items-cr {
+    align-items: center;
+}
+
+.align-items-fx-st {
+    align-items: flex-start;
+}
+
+.align-items-fx-ed {
+    align-items: flex-end;
+}
+
+.text-decoration-ne {
+    text-decoration: none;
+}
+
+.text-decoration-ue {
+    text-decoration: underline;
+}
+
+.text-transform-ue {
+    text-transform: uppercase;
+}
+
+.text-transform-ce {
+    text-transform: capitalize;
+}
+
+.font-weight-bd {
+    font-weight: bold;
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-weight-800 {
+    font-weight: 800;
+}
+
+.font-weight-900 {
+    font-weight: 900;
+}
+
+.font-size-sl {
+    font-size: small;
+}
+
+.f-s-mm {
+    font-size: medium;
+}
+
+.list-style-ne {
+    list-style: none;
+}
+
+.list-style-oe {
+    list-style: outside;
+}
+
+.background-repeat-nr {
+    background-repeat: no-repeat;
+}
+
+.background-size-cr {
+    background-size: cover;
+}
+
+.background-position-cr {
+    background-position: center;
+}
+
+.background-color-tt {
+    background-color: transparent;
+}
+
+.background-ne {
+    background: none;
+}
+
+.overflow-hn {
+    overflow: hidden;
+}
+
+.overflow-sl {
+    overflow: scroll;
+}
+
+.overflow-ve {
+    overflow: visible;
+}
+
+.overflow-ao {
+    overflow: auto;
+}
+
+.overflow-x-hn {
+    overflow-x: hidden;
+}
+
+.overflow-x-sl {
+    overflow-x: scroll;
+}
+
+.overflow-x-ve {
+    overflow-x: visible;
+}
+
+.overflow-x-ao {
+    overflow-x: auto;
+}
+
+.overflow-y-hn {
+    overflow-y: hidden;
+}
+
+.overflow-y-sl {
+    overflow-y: scroll;
+}
+
+.overflow-y-ve {
+    overflow-y: visible;
+}
+
+.overflow-y-a {
+    overflow-y: auto;
+}
+
+.border-ne {
+    border: none;
+}
+
+.border-radius-ut {
+    border-radius: unset;
+}
+
+.outline-ne {
+    outline: none;
+}
+
+.cursor-pr {
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+/*-----------------------------------------------
+|   Form
+-----------------------------------------------*/
+.form-control{
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 1px 1px #BDBDBD;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 100%;
+    max-width: 100%;
+    border: 1px solid #E0E0E0;
+}
+
+.form-control-error{
+    border: 2px solid #EF9A9A;
+}
+
+.text-error{
+    color: #C62828;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.form-control-success{
+    border: 2px solid #A5D6A7;
+}
+
+.text-success{
+    color: #2E7D32;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+

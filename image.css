@@ -1,0 +1,139 @@
+/*-----------------------------------------------
+|   Utility
+-----------------------------------------------*/
+
+.notify-xl, .notify-lg, .notify-md, .notify-sm,
+.notify-border-xl, .notify-border-lg, .notify-border-md, .notify-border-sm,
+.notify-circle-xl, .notify-circle-lg, .notify-circle-md, .notify-circle-sm {
+    position: relative;
+}
+
+.avatar-xl, .notify-xl {
+    width: 200px;
+    height: 200px;
+}
+
+.avatar-border-xl, .notify-border-xl {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.avatar-circle-xl, .notify-circle-xl {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.avatar-lg, .notify-lg {
+    width: 100px;
+    height: 100px;
+}
+
+.avatar-border-lg, .notify-border-lg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.avatar-circle-lg, .notify-circle-lg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.avatar-md, .notify-md {
+    width: 50px;
+    height: 50px;
+}
+
+.avatar-border-md, .notify-border-md {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.avatar-circle-md, .notify-circle-md {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.avatar-sm, .notify-sm {
+    width: 30px;
+    height: 30px;
+}
+
+.avatar-border-sm, .notify-border-sm {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.avatar-circle-sm, .notify-circle-sm {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.notify-red-xl, .notify-green-xl, .notify-orange-xl, .notify-blue-xl,
+.notify-red-lg, .notify-green-lg, .notify-orange-lg, .notify-blue-lg,
+.notify-red-md, .notify-green-md, .notify-orange-md, .notify-blue-md,
+.notify-red-sm, .notify-green-sm, .notify-orange-sm, .notify-blue-sm {
+    border-radius: 50%;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.notify-red-xl, .notify-green-xl, .notify-orange-xl, .notify-blue-xl {
+    width: 50px;
+    height: 50px;
+    top: -15px;
+    right: -15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.notify-red-lg, .notify-green-lg, .notify-orange-lg, .notify-blue-lg {
+    width: 30px;
+    height: 30px;
+    top: -10px;
+    right: -10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.notify-red-md, .notify-green-md, .notify-orange-md, .notify-blue-md {
+    width: 20px;
+    height: 20px;
+    top: -5px;
+    right: -5px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.notify-red-sm, .notify-green-sm, .notify-orange-sm, .notify-blue-sm {
+    width: 8px;
+    height: 8px;
+    top: -3px;
+    right: -3px;
+}
+
+.notify-red-xl, .notify-red-lg, .notify-red-md, .notify-red-sm {
+    background-color: #C62828;
+}
+
+.notify-green-xl, .notify-green-lg, .notify-green-md, .notify-green-sm {
+    background-color: #2E7D32;
+}
+
+.notify-orange-xl, .notify-orange-lg, .notify-orange-md, .notify-orange-sm {
+    background-color: #EF6C00;
+}
+
+.notify-blue-xl, .notify-blue-lg, .notify-blue-md, .notify-blue-sm {
+    background-color: #1565C0;
+}

@@ -1,0 +1,436 @@
+/*-----------------------------------------------
+|   Button
+-----------------------------------------------*/
+.button{
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button-i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button i{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.button svg{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.button-grey{
+    background-color: #424242;
+    color: #FFF;
+}
+
+.button-grey:hover{
+    background-color: #212121;
+}
+
+.button-read{
+    background-color: #C62828;
+    color: #FFF;
+}
+
+.button-read:hover{
+    background-color: #B71C1C;
+}
+
+.button-pink{
+    background-color: #AD1457;
+    color: #FFF;
+}
+
+.button-pink:hover{
+    background-color: #880E4F;
+}
+
+.button-purple{
+    background-color: #6A1B9A;
+    color: #FFF;
+}
+
+.button-purple:hover{
+    background-color: #4A148C;
+}
+
+.button-indigo{
+    background-color: #E8EAF6;
+    color: #FFF;
+}
+
+.button-indigo:hover{
+    background-color: #1A237E;
+}
+
+.button-blue{
+    background-color: #1565C0;
+    color: #FFF;
+}
+
+.button-blue:hover{
+    background-color: #0D47A1;
+}
+
+.button-cyan{
+    background-color: #00838F;
+    color: #FFF;
+}
+
+.button-cyan:hover{
+    background-color: #006064;
+}
+
+.button-teal{
+    background-color: #00695C;
+    color: #FFF;
+}
+
+.button-teal:hover{
+    background-color: #004D40;
+}
+
+.button-green{
+    background-color: #2E7D32;
+    color: #FFF;
+}
+
+.button-green:hover{
+    background-color: #1B5E20;
+}
+
+.button-lime{
+    background-color: #9E9D24;
+    color: #FFF;
+}
+
+.button-lime:hover{
+    background-color: #827717;
+}
+
+.button-yellow{
+    background-color: #F9A825;
+    color: #FFF;
+}
+
+.button-yellow:hover{
+    background-color: #F57F17;
+}
+
+.button-amber{
+    background-color: #FF8F00;
+    color: #FFF;
+}
+
+.button-amber:hover{
+    background-color: #FF6F00;
+}
+
+.button-orange{
+    background-color: #EF6C00;
+    color: #FFF;
+}
+
+.button-orange:hover{
+    background-color: #E65100;
+}
+
+.button-brown{
+    background-color: #4E342E;
+    color: #FFF;
+}
+
+.button-brown:hover{
+    background-color: #3E2723;
+}
+
+
+
+
+
+
+.button-outline-grey{
+    background-color: #FFF;
+    color: #424242;
+}
+
+.button-outline-grey:hover{
+    background-color: #424242;
+    color: #FFF;
+}
+
+.button-outline-read{
+    background-color: #FFF;
+    color: #C62828;
+}
+
+.button-outline-read:hover{
+    background-color: #C62828;
+    color: #FFF;
+}
+
+.button-outline-pink{
+    background-color: #FFF;
+    color: #AD1457;
+}
+
+.button-outline-pink:hover{
+    background-color: #AD1457;
+    color: #FFF;
+}
+
+.button-outline-purple{
+    background-color: #FFF;
+    color: #6A1B9A;
+}
+
+.button-outline-purple:hover{
+    background-color: #6A1B9A;
+    color: #FFF;
+}
+
+.button-outline-indigo{
+    background-color: #FFF;
+    color: #283593;
+}
+
+.button-outline-indigo:hover{
+    background-color: #283593;
+    color: #FFF;
+}
+
+.button-outline-blue{
+    background-color: #FFF;
+    color: #1565C0;
+}
+
+.button-outline-blue:hover{
+    background-color: #1565C0;
+    color: #FFF;
+}
+
+.button-outline-cyan{
+    background-color: #FFF;
+    color: #00838F;
+}
+
+.button-outline-cyan:hover{
+    background-color: #00838F;
+    color: #FFF;
+}
+
+.button-outline-teal{
+    background-color: #FFF;
+    color: #00695C;
+}
+
+.button-outline-teal:hover{
+    background-color: #00695C;
+    color: #FFF;
+}
+
+.button-outline-green{
+    background-color: #FFF;
+    color: #2E7D32;
+}
+
+.button-outline-green:hover{
+    background-color: #2E7D32;
+    color: #FFF;
+}
+
+.button-outline-lime{
+    background-color: #FFF;
+    color: #9E9D24;
+}
+
+.button-outline-lime:hover{
+    background-color: #9E9D24;
+    color: #FFF;
+}
+
+.button-outline-yellow{
+    background-color: #FFF;
+    color: #F9A825;
+}
+
+.button-outline-yellow:hover{
+    background-color: #F9A825;
+    color: #FFF;
+}
+
+.button-outline-amber{
+    background-color: #FFF;
+    color: #FF8F00;
+}
+
+.button-outline-amber:hover{
+    background-color: #FF8F00;
+    color: #FFF;
+}
+
+.button-outline-orange{
+    background-color: #FFF;
+    color: #EF6C00;
+}
+
+.button-outline-orange:hover{
+    background-color: #EF6C00;
+    color: #FFF;
+}
+
+.button-outline-brown{
+    background-color: #FFF;
+    color: #4E342E;
+}
+
+.button-outline-brown:hover{
+    background-color: #4E342E;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+.button-color-grey{
+    background-color: #FAFAFA;
+    color: #424242;
+}
+
+.button-color-grey:hover{
+    background-color: #F5F5F5;
+}
+
+.button-color-read{
+    background-color: #FFEBEE;
+    color: #C62828;
+}
+
+.button-color-read:hover{
+    background-color: #FFCDD2;
+}
+
+.button-color-pink{
+    background-color: #FCE4EC;
+    color: #AD1457;
+}
+
+.button-color-pink:hover{
+    background-color: #F8BBD0;
+}
+
+.button-color-purple{
+    background-color: #F3E5F5;
+    color: #6A1B9A;
+}
+
+.button-color-purple:hover{
+    background-color: #E1BEE7;
+}
+
+.button-color-indigo{
+    background-color: #E8EAF6;
+    color: #283593;
+}
+
+.button-color-indigo:hover{
+    background-color: #C5CAE9;
+}
+
+.button-color-blue{
+    background-color: #E3F2FD;
+    color: #1565C0;
+}
+
+.button-color-blue:hover{
+    background-color: #BBDEFB;
+}
+
+.button-color-cyan{
+    background-color: #E0F7FA;
+    color: #00838F;
+}
+
+.button-color-cyan:hover{
+    background-color: #B2EBF2;
+}
+
+.button-color-teal{
+    background-color: #E0F2F1;
+    color: #00695C;
+}
+
+.button-color-teal:hover{
+    background-color: #B2DFDB;
+}
+
+.button-color-green{
+    background-color: #E8F5E9;
+    color: #2E7D32;
+}
+
+.button-color-green:hover{
+    background-color: #C8E6C9;
+}
+
+.button-color-lime{
+    background-color: #F9FBE7;
+    color: #9E9D24;
+}
+
+.button-color-lime:hover{
+    background-color: #F0F4C3;
+}
+
+.button-color-yellow{
+    background-color: #FFFDE7;
+    color: #F9A825;
+}
+
+.button-color-yellow:hover{
+    background-color: #FFF9C4;
+}
+
+.button-color-amber{
+    background-color: #FFF8E1;
+    color: #FF8F00;
+}
+
+.button-color-amber:hover{
+    background-color: #FFECB3;
+}
+
+.button-color-orange{
+    background-color: #FFF3E0;
+    color: #EF6C00;
+}
+
+.button-color-orange:hover{
+    background-color: #FFE0B2;
+}
+
+.button-color-brown{
+    background-color: #EFEBE9;
+    color: #4E342E;
+}
+
+.button-color-brown:hover{
+    background-color: #D7CCC8;
+}
+
+

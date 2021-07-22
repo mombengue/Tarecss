@@ -1,0 +1,430 @@
+/*-----------------------------------------------
+|   Color
+-----------------------------------------------*/
+
+.color-black {
+    color: #000;
+}
+.color-white {
+    color: #FFF;
+}
+.color-read-50 {
+    color: #FFEBEE;	
+}
+.color-read-100 {
+    color: #FFCDD2;	
+}
+.color-read-200 {
+    color: #EF9A9A;	
+}
+.color-read-300 {
+    color: #E57373;	
+}
+.color-read-400 {
+    color: #EF5350;	
+}
+.color-read-500 {
+    color: #F44336;	
+}
+.color-read-600 {
+    color: #E53935;	
+}
+.color-read-700 {
+    color: #D32F2F;	
+}
+.color-read-800 {
+    color: #C62828;	
+}
+.color-read-900 {
+    color: #B71C1C;	
+}
+.color-pink-50 {
+    color: #FCE4EC;	
+}
+.color-pink-100 {
+    color: #F8BBD0;	
+}
+.color-pink-200 {
+    color: #F48FB1;	
+}
+.color-pink-300 {
+    color: #F06292;	
+}
+.color-pink-400 {
+    color: #EC407A;	
+}
+.color-pink-500 {
+    color: #E91E63;	
+}
+.color-pink-600 {
+    color: #D81B60;	
+}
+.color-pink-700 {
+    color: #C2185B;	
+}
+.color-pink-800 {
+    color: #AD1457;
+}	
+.color-pink-900 {
+    color: #880E4F;
+}
+.color-grey-50 {
+    color: #FAFAFA;
+}
+.color-grey-100 {
+    color: #F5F5F5;
+}
+.color-grey-200 {
+    color: #EEEEEE;
+}
+.color-grey-300 {
+    color: #E0E0E0;
+}
+.color-grey-400 {
+    color: #BDBDBD;
+}
+.color-grey-500 {
+    color: #9E9E9E;
+}
+.color-grey-600 {
+    color: #757575;
+}
+.color-grey-700 {
+    color: #616161;
+}
+.color-grey-800 {
+    color: #424242;
+}
+.color-grey-900 {
+    color: #212121;
+}
+.color-yellow-50 {
+    color: #FFFDE7;	
+}
+.color-yellow-100 {
+    color: #FFF9C4;	
+}
+.color-yellow-200 {
+    color: #FFF59D;	
+}
+.color-yellow-300 {
+    color: #FFF176;	
+}
+.color-yellow-400 {
+    color: #FFEE58;	
+}
+.color-yellow-500 {
+    color: #FFEB3B;	
+}
+.color-yellow-600 {
+    color: #FDD835;	
+}
+.color-yellow-700 {
+    color: #FBC02D;	
+}
+.color-yellow-800 {
+    color: #F9A825;	
+}
+.color-yellow-900 {
+    color: #F57F17;	
+}
+.color-green-50 {
+    color: #E8F5E9;	
+}
+.color-green-100 {
+    color: #C8E6C9;	
+}
+.color-green-200 {
+    color: #A5D6A7;	
+}
+.color-green-300 {
+    color: #81C784;	
+}
+.color-green-400 {
+    color: #66BB6A;	
+}
+.color-green-500 {
+    color: #4CAF50;	
+}
+.color-green-600 {
+    color: #43A047;	
+}
+.color-green-700 {
+    color: #388E3C;
+}
+.color-green-800 {
+    color: #2E7D32;	
+}
+.color-green-900 {
+    color: #1B5E20;	
+}
+.color-blue-50 {
+    color: #E3F2FD;	
+}
+.color-blue-100 {
+    color: #BBDEFB;
+}
+.color-blue-200 {
+    color: #90CAF9;	
+}
+.color-blue-300 {
+    color: #64B5F6;	
+}
+.color-blue-400 {
+    color: #42A5F5;	
+}
+.color-blue-500 {
+    color: #2196F3;	
+}
+.color-blue-600 {
+    color: #1E88E5;	
+}
+.color-blue-700 {
+    color: #1976D2;	
+}
+.color-blue-800 {
+    color: #1565C0;	
+}
+.color-blue-900 {
+    color: #0D47A1;	
+}
+.color-indigo-50 {
+    color: #E8EAF6;	
+}
+.color-indigo-100 {
+    color: #C5CAE9;
+}
+.color-indigo-200 {
+    color: #9FA8DA;	
+}
+.color-indigo-300 {
+    color: #7986CB;	
+}
+.color-indigo-400 {
+    color: #5C6BC0;	
+}
+.color-indigo-500 {
+    color: #3F51B5;	
+}
+.color-indigo-600 {
+    color: #3949AB;	
+}
+.color-indigo-700 {
+    color: #303F9F;	
+}
+.color-indigo-800 {
+    color: #283593;	
+}
+.color-indigo-900 {
+    color: #1A237E;	
+}
+.color-purple-50 {
+    color: #F3E5F5;	
+}
+.color-purple-100 {
+    color: #E1BEE7;
+}
+.color-purple-200 {
+    color: #CE93D8;	
+}
+.color-purple-300 {
+    color: #BA68C8;
+}
+.color-purple-400 {
+    color: #AB47BC;	
+}
+.color-purple-500 {
+    color: #9C27B0;
+}
+.color-purple-600 {
+    color: #8E24AA;	
+}
+.color-purple-700 {
+    color: #7B1FA2;
+}
+.color-purple-800 {
+    color: #6A1B9A;	
+}
+.color-purple-900 {
+    color: #4A148C;	
+}
+.color-cyan-50 {
+    color: #E0F7FA;	
+}
+.color-cyan-100 {
+    color: #B2EBF2;
+}
+.color-cyan-200 {
+    color: #80DEEA;	
+}
+.color-cyan-300 {
+    color: #4DD0E1;
+}
+.color-cyan-400 {
+    color: #26C6DA;	
+}
+.color-cyan-500 {
+    color: #00BCD4;
+}
+.color-cyan-600 {
+    color: #00ACC1;	
+}
+.color-cyan-700 {
+    color: #0097A7;
+}
+.color-cyan-800 {
+    color: #00838F;	
+}
+.color-cyan-900 {
+    color: #006064;	
+}
+.color-lime-50 {
+    color: #F9FBE7;	
+}
+.color-lime-100 {
+    color: #F0F4C3;
+}
+.color-lime-200 {
+    color: #E6EE9C;	
+}
+.color-lime-300 {
+    color: #DCE775;
+}
+.color-lime-400 {
+    color: #D4E157;	
+}
+.color-lime-500 {
+    color: #CDDC39;
+}
+.color-lime-600 {
+    color: #C0CA33;	
+}
+.color-lime-700 {
+    color: #AFB42B;
+}
+.color-lime-800 {
+    color: #9E9D24;	
+}
+.color-lime-900 {
+    color: #827717;	
+}
+.color-teal-50 {
+    color: #E0F2F1;	
+}
+.color-teal-100 {
+    color: #B2DFDB;
+}
+.color-teal-200 {
+    color: #80CBC4;	
+}
+.color-teal-300 {
+    color: #4DB6AC;
+}
+.color-teal-400 {
+    color: #26A69A;	
+}
+.color-teal-500 {
+    color: #009688;
+}
+.color-teal-600 {
+    color: #00897B;	
+}
+.color-teal-700 {
+    color: #00796B;
+}
+.color-teal-800 {
+    color: #00695C;	
+}
+.color-teal-900 {
+    color: #004D40;	
+}
+.color-amber-50 {
+    color: #FFF8E1;	
+}
+.color-amber-100 {
+    color: #FFECB3;
+}
+.color-amber-200 {
+    color: #FFE082;	
+}
+.color-amber-300 {
+    color: #FFD54F;
+}
+.color-amber-400 {
+    color: #FFCA28;	
+}
+.color-amber-500 {
+    color: #FFC107;
+}
+.color-amber-600 {
+    color: #FFB300;	
+}
+.color-amber-700 {
+    color: #FFA000;
+}
+.color-amber-800 {
+    color: #FF8F00;	
+}
+.color-amber-900 {
+    color: #FF6F00;	
+}
+.color-orange-50 {
+    color: #FFF3E0;	
+}
+.color-orange-100 {
+    color: #FFE0B2;
+}
+.color-orange-200 {
+    color: #FFCC80;	
+}
+.color-orange-300 {
+    color: #FFB74D;
+}
+.color-orange-400 {
+    color: #FFA726;	
+}
+.color-orange-500 {
+    color: #FF9800;
+}
+.color-orange-600 {
+    color: #FB8C00;	
+}
+.color-orange-700 {
+    color: #F57C00;
+}
+.color-orange-800 {
+    color: #EF6C00;	
+}
+.color-orange-900 {
+    color: #E65100;	
+}
+.color-brown-50 {
+    color: #EFEBE9;	
+}
+.color-brown-100 {
+    color: #D7CCC8;
+}
+.color-brown-200 {
+    color: #BCAAA4;	
+}
+.color-brown-300 {
+    color: #A1887F;
+}
+.color-brown-400 {
+    color: #8D6E63;	
+}
+.color-brown-500 {
+    color: #795548;
+}
+.color-brown-600 {
+    color: #6D4C41;	
+}
+.color-brown-700 {
+    color: #5D4037;
+}
+.color-brown-800 {
+    color: #4E342E;	
+}
+.color-brown-900 {
+    color: #3E2723;	
+}

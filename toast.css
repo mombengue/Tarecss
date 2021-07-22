@@ -1,0 +1,71 @@
+/*-----------------------------------------------
+|   Utility
+-----------------------------------------------*/
+
+.toast {
+    padding: 14px 30px 20px 60px;
+    width: 500px;
+    box-shadow: 0px 0px 5px 1px #BDBDBD;
+    border-radius: 5px;
+    background: #FFF;
+    position: relative;
+}
+
+.toast-icon {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-size: 18px;
+}
+
+.toast-title {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.toast-description {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: .8;
+}
+
+.toast-close {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    font-size: 14px;
+    opacity: .4;
+}
+
+.toast-red {
+    border-left: 4px solid #C62828;
+}
+
+.toast-red .toast-icon {
+    color: #C62828;
+}
+
+.toast-green {
+    border-left: 4px solid #2E7D32;
+}
+
+.toast-green .toast-icon {
+    color: #2E7D32;
+}
+
+.toast-orange {
+    border-left: 4px solid #EF6C00;
+}
+
+.toast-orange .toast-icon {
+    color: #EF6C00;
+}
+
+.toast-blue {
+    border-left: 4px solid #1565C0;
+}
+
+.toast-blue .toast-icon {
+    color: #1565C0;
+}
